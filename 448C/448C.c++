@@ -10,9 +10,6 @@ long long min_stroke(long long* a, int n) {
 
 	long long min = *min_element(a, a+n);
 
-	if(min == 0)
-		return 0;
-
 	int prev = 0;
 	long long temp = 0;
 	long long count = 0;
