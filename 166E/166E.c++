@@ -25,7 +25,6 @@ int main() {
  			answer %= 1000000007;
  		prev = temp;
  	}
- 	
 
  	cout << answer << endl;
 }
